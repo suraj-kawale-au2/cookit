@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Username :"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        android:id="@+id/textView"
+        android:layout_alignLeft="@+id/TFusername"
+        android:layout_alignStart="@+id/TFusername" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:background="@color/colorAccent"
+        android:id="@+id/TFuserpass"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/TFusername"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Password"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/TFusername"
+        android:layout_alignLeft="@+id/TFusername"
+        android:layout_alignStart="@+id/TFusername" />
+
+    <Button
+        android:text="Login"
+        android:background="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:id="@+id/Buserlogin"
+        android:onClick="Userloggedin"
+        android:layout_below="@+id/TFuserpass"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Don't Have Account ?"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:textSize="18dp"
+        android:layout_below="@+id/Buserlogin"
+        android:layout_alignLeft="@+id/TFuserpass"
+        android:layout_alignStart="@+id/TFuserpass"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/textView5" />
+
+    <Button
+        android:text="Register Here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Buserreg"
+        android:onClick="Userreg"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_toRightOf="@+id/textView5"
+        android:layout_toEndOf="@+id/textView5" />
+</RelativeLayout>

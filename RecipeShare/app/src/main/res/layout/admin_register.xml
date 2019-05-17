@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/textView18"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_marginTop="13dp"
+        android:id="@+id/TFradminname" />
+
+    <TextView
+        android:text="Phone :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TFradminemail"
+        android:layout_alignRight="@+id/textView20"
+        android:layout_alignEnd="@+id/textView20"
+        android:layout_marginTop="11dp"
+        android:id="@+id/TVphone" />
+
+    <TextView
+        android:text="Password :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TFradminphone"
+        android:layout_alignLeft="@+id/TFradminphone"
+        android:layout_alignStart="@+id/TFradminphone"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView23" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:layout_below="@+id/textView23"
+        android:layout_alignLeft="@+id/textView23"
+        android:layout_alignStart="@+id/textView23"
+        android:layout_marginTop="11dp"
+        android:id="@+id/TFradminpass1" />
+
+    <TextView
+        android:text="Confirm Password :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TFradminpass1"
+        android:layout_alignLeft="@+id/TFradminpass1"
+        android:layout_alignStart="@+id/TFradminpass1"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView25" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:layout_below="@+id/textView25"
+        android:layout_alignLeft="@+id/textView25"
+        android:layout_alignStart="@+id/textView25"
+        android:layout_marginTop="16dp"
+        android:id="@+id/TFradminpass2" />
+
+    <TextView
+        android:text="Name :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="61dp"
+        android:id="@+id/textView18"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/TFradminphone"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/TVphone"
+        android:layout_alignLeft="@+id/TVphone"
+        android:layout_alignStart="@+id/TVphone"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:text="Email :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView20"
+        android:layout_below="@+id/TFradminname"
+        android:layout_alignRight="@+id/textView18"
+        android:layout_alignEnd="@+id/textView18" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:id="@+id/TFradminemail"
+        android:layout_below="@+id/textView20"
+        android:layout_alignLeft="@+id/TVphone"
+        android:layout_alignStart="@+id/TVphone"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:text="Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="41dp"
+        android:id="@+id/Badminregister"
+        android:onClick="Adminregister"
+        android:layout_below="@+id/TFradminpass2"
+        android:layout_alignRight="@+id/TFradminpass2"
+        android:layout_alignEnd="@+id/TFradminpass2" />
+
+</RelativeLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:text="Username :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="53dp"
+        android:id="@+id/textView17" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:layout_below="@+id/textView17"
+        android:layout_alignLeft="@+id/textView17"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_marginTop="13dp"
+        android:id="@+id/TFrchiefname" />
+
+    <TextView
+        android:text="Email :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tv"
+        android:layout_below="@+id/TFrchiefname"
+        android:layout_alignLeft="@+id/TFrchiefname"
+        android:layout_alignStart="@+id/TFrchiefname"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/Tv"
+        android:layout_alignRight="@+id/TFrchiefname"
+        android:layout_alignEnd="@+id/TFrchiefname"
+        android:layout_marginTop="14dp"
+        android:id="@+id/TFrchiefemail" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/textViewchief"
+        android:layout_alignRight="@+id/TFrchiefphone"
+        android:layout_alignEnd="@+id/TFrchiefphone"
+        android:layout_marginTop="18dp"
+        android:id="@+id/TFrchiefpass1" />
+
+    <TextView
+        android:text="Confirm Password :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TFrchiefpass1"
+        android:layout_alignLeft="@+id/TFrchiefpass1"
+        android:layout_alignStart="@+id/TFrchiefpass1"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView21" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/textView21"
+        android:layout_alignRight="@+id/TFrchiefpass1"
+        android:layout_alignEnd="@+id/TFrchiefpass1"
+        android:layout_marginTop="15dp"
+        android:id="@+id/TFrchiefpass2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:id="@+id/TFrchiefphone"
+        android:layout_below="@+id/textView19"
+        android:layout_alignLeft="@+id/TFrchiefemail"
+        android:layout_alignStart="@+id/TFrchiefemail"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:text="Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:id="@+id/Bchiefregister"
+        android:background="@color/colorAccent"
+        android:onClick="Chiefregister"
+        android:layout_below="@+id/TFrchiefpass2"
+        android:layout_alignRight="@+id/TFrchiefpass2"
+        android:layout_alignEnd="@+id/TFrchiefpass2" />
+
+    <TextView
+        android:text="Password :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/textViewchief"
+        android:layout_below="@+id/TFrchiefphone"
+        android:layout_alignLeft="@+id/textView19"
+        android:layout_alignStart="@+id/textView19" />
+
+    <TextView
+        android:text="Phone :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/textView19"
+        android:layout_below="@+id/TFrchiefemail"
+        android:layout_alignLeft="@+id/TFrchiefphone"
+        android:layout_alignStart="@+id/TFrchiefphone" />
+</RelativeLayout>
